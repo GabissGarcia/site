@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Site html </title>
+</head>
+<body>
+    <nav>
+
+      <div class="logo">
+           <a href="index.html">Art3mis</a>
+      </div>
+          
+
+      <ul class="menu-desktop">
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="arte.html"> Arte </a></li>
+        <li><a href="music.html"> Music </a></li>
+        <li><a href="video.html"> Video </a></li>
+        <li><a href="contato.html"> Contato </a></li>
+      </ul>
+      <ul class="menu-mobile">
+        <div class="icon-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+
+        </div>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="arte.html"> Arte </a></li>
+        <li><a href="music.html"> Music </a></li>
+        <li><a href="video.html"> Video </a></li>
+        <li><a href="contato.html"> Contato </a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </nav>
+    <section class="banner">
+        <div class="texto">
+            <h1 class="titulo">Art3mis artes e musicas</h1>
+            <div class="botao">
+                <a href="https://gx.games/pt-br/"><button class="n-overlay">joguinhos</button>
+                
+
+            </div>
+
+        </div>
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+        menuIcon.addEventListener('click', function(){
+            menuMobile.classList.add('ativo');
+
+        });
+
+
+        iconClose.addEventListener('click', function(){
+            menuMobile.classList.remove('ativo');
+
+        });
+
+
+
+    </script>
+</body>
+</html>
