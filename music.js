@@ -1,5 +1,5 @@
 let musicas = [
-    {titulo:'Money', artista:'Lisa', src:'money.mp3', img:'lisa.jpg'},
+    {titulo:'Money', artista:'Lisa', src:'money.mp3', img:'Lisa.jpg'},
     {titulo:'Bring Me To Life', artista:'Evanescence', src:'Evanescence.mp3', img:'Evanescence.jpg'},
     {titulo:'My Universe', artista:'Coldplay X BTS', src:'BTS.mp3', img:'bts.jpg'}
 ];
