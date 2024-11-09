@@ -1,6 +1,7 @@
 let musicas = [
-    {titulo:'Money', artista:'Lisa', src:'https://open.spotify.com/intl-pt/track/7hU3IHwjX150XLoTVmjD0q?si=c50002e255c74cd0', img:'lisa.jpg'},
+    {titulo:'Money', artista:'Lisa', src:'MONEY.mp3', img:'lisa.jpg'},
     {titulo:'Bring Me To Life', artista:'Evanescence', src:'Evanescence.mp3', img:'Evanescence.jpg'},
+    {titulo:'Money', artista:'Lisa', src:'MONEY.mp3', img:'lisa.jpg'},
     {titulo:'My Universe', artista:'Coldplay X BTS', src:'BTS.mp3', img:'bts.jpg'}
     
 ];
