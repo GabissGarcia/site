@@ -25,14 +25,14 @@ musica.addEventListener('timeupdate', atualizarBarra);
 document.querySelector('.anterior').addEventListener('click', () => {
     indexMusica--;
     if (indexMusica < 0) {
-        indexMusica = 2;
+        indexMusica = 3;
     }
     renderizarMusica(indexMusica);
 });
 
 document.querySelector('.proxima').addEventListener('click', () => {
     indexMusica++;
-    if (indexMusica > 2){
+    if (indexMusica > 3){
         indexMusica = 0;
     }
     renderizarMusica(indexMusica);
